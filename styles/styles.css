@@ -13,7 +13,7 @@ h1 {
     color: darkblue;
 }
 
-img{
+img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -21,6 +21,6 @@ img{
     box-shadow: 0 0 30px gray;
 }
 
-p{
+p {
     padding: 10px;
 }
