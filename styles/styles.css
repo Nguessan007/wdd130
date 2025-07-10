@@ -35,7 +35,8 @@ aside {
     border: 1px solid rgb(0 0 0 / 0.2); /* 1️⃣ */
     padding: 1rem;
     background-color: #eee;
-    color: center;
+    color: #333;
+    text-align:center;
 }
 
 aside img{
