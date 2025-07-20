@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Merriweather', serif;
     margin: 0;
     padding: 0;
     background: #f9f9f9;
@@ -19,7 +19,8 @@ body {
     padding: 2em;
   }
 
-  h2 {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
     color: #0066cc;
   }
 
