@@ -60,7 +60,7 @@
   /* Hero Section */
   .hero {
     position: relative;
-    text-align: center;
+    text-align: left;
     background-color: #e0fbfc;
     padding: 2rem 1rem;
   }
