@@ -66,10 +66,10 @@
   }
   
   .hero img:first-child {
-    width: 50%;
+    width: 70%;
     height: 100px;
     border-radius: 8px;
-    
+
   }
   
   .hero h2 {
