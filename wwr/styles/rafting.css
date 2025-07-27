@@ -146,11 +146,13 @@
     color: white;
     padding: 1.5rem 1rem;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   
   footer nav.socialmedia {
     margin-bottom: 1rem;
+    position: relative;
+    align-items: flex-end ;
   }
   
   footer nav.socialmedia a {
