@@ -66,9 +66,10 @@
   }
   
   .hero img:first-child {
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 100px;
     border-radius: 8px;
+    
   }
   
   .hero h2 {
