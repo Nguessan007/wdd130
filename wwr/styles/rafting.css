@@ -208,13 +208,13 @@
     margin-bottom: 1rem;
     position: relative;
     align-items: flex-end ;
-    text-align: right;
-    float: right;
+    text-align: center;
   }
   
   footer nav.socialmedia img {
     height: 32px;
     width: 32px;
     margin-left: 10px;
+    float: right;
   }
   
