@@ -200,7 +200,7 @@
     padding: 1.5rem 1rem;
     text-align: center;
     margin-top: 2rem;
-    text-emphasis-color: white;
+    
   }
   
   footer nav.socialmedia {
@@ -218,6 +218,7 @@
     width: 32px;
     filter: brightness(0) invert(1);
     transition: transform 0.3s ease;
+    margin: 0 0.5rem;
   }
   
   footer nav.socialmedia img:hover {
