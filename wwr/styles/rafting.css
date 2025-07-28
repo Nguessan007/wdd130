@@ -209,6 +209,7 @@
     position: relative;
     align-items: flex-end ;
     text-align: right;
+    float: right;
   }
   
   footer nav.socialmedia a {
