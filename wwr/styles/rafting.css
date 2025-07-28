@@ -31,7 +31,7 @@
   }
   
   header img {
-    height: 50px;
+    height: 60px;
     margin-right: 1rem;
   }
   
@@ -93,7 +93,56 @@
     border-radius: 6px;
     float: right;
   }
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid #ccc;
+    padding: 1rem;
+  }
   
+  .hero-content p {
+    flex: 2;
+    text-align: left;
+  }
+
+  .hero-content img {
+    flex: 1;
+    max-width: 200px;
+    height: auto;
+  }
+  
+/* History */
+.history {
+  background: #f9f9f9;
+  padding: 2rem;
+  text-align: center;
+}
+
+.history h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.history-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.history-content p {
+  flex: 1;
+}
+
+.history-content img {
+  flex: 1;
+  max-width: 200px;
+  height: auto;
+}
+
+
   /* Sections */
   section {
     max-width: 1000px;
