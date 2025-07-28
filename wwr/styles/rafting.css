@@ -196,9 +196,10 @@
   
   /* Footer */
   footer {
+    display: flex;
+    justify-content: space-between;
     background-color: #005f73;
-    padding: 1.5rem 1rem;
-    text-align: center;
+    padding: 1rem;
     margin-top: 2rem;
     
   }
@@ -207,6 +208,7 @@
     margin-bottom: 1rem;
     position: relative;
     align-items: flex-end ;
+    text-align: right;
   }
   
   footer nav.socialmedia a {
