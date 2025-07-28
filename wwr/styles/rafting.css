@@ -209,7 +209,7 @@
   footer nav.socialmedia {
     margin-bottom: 1rem;
     position: relative;
-    align-items: flex-start ;
+    align-items: flex-end ;
     text-align: center;
   }
   
