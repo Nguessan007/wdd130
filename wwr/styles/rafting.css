@@ -218,8 +218,6 @@
   footer nav.socialmedia img {
     height: 32px;
     width: 32px;
-    filter: brightness(0) invert(1);
-    transition: transform 0.3s ease;
     margin: 0 0.5rem;
   }
   
