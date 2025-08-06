@@ -208,18 +208,18 @@
   max-width: 100%;
 }
 
-.employee-grid {
+.team-grid {
   display: flex;
   gap: 1rem;
   justify-content: space-between;
 }
 
-.employee-grid figure {
+.team-grid figure {
   text-align: center;
   flex: 1;
 }
 
-.employee-grid img {
+.team-grid img {
   width: 100%;
   max-width: 200px;
   border-radius: 8px;
