@@ -55,6 +55,7 @@
       <section class="contact-form">
         <h2>Send Us a Message</h2>
         <form action="submit-form.php" method="post">
+
           <label for="name">Your Name:</label>
           <input type="text" id="name" name="name" required>
       
@@ -62,15 +63,15 @@
           <input type="email" id="email" name="email" required>
       
           <p>Purpose of your message:</p>
-          <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
-          <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-          <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+          <label><input type="radio" id="purpose-general" name="purpose" value="general" required> General Inquiry</label>
+          <label><input type="radio" id="purpose-reservation" name="purpose" value="reservation"> Reservation Question</label>
+          <label><input type="radio" id="purpose-website" name="purpose" value="website"> Website Suggestion</label>
       
           <label for="message">Your Message:</label>
           <textarea id="message" name="message" required></textarea>
       
           <label>
-            <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
+            <input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly newsletter
           </label>
       
           <button type="submit">Send Message</button>
