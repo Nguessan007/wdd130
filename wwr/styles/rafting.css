@@ -194,7 +194,67 @@
     color: #0a9396;
     margin-top: 0.5rem;
   }
-  
+  /* Contact Info and Form */
+.contact-info, .team, .contact-form {
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 1rem;
+}
+
+.employee-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.employee-grid figure {
+  text-align: center;
+  flex: 1;
+}
+
+.employee-grid img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label, form p {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+form textarea {
+  min-height: 120px;
+}
+
+button[type="submit"] {
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  background-color: #0077cc;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
   /* Footer */
   footer {
     display: flex;
